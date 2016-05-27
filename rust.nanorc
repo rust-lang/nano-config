@@ -14,10 +14,10 @@ color yellow "\<(abstract|alignof|as|become|box|break|const|continue|crate|do|el
 color red "[a-z_]+!"
 
 # Constants
-color magenta "[A-Z][A-Z_]+"
+color magenta "[A-Z][A-Z_0-9]+"
 
 # Traits/Enums/Structs/Types/etc.
-color magenta "[A-Z][a-z]+"
+color magenta "[A-Z][a-z0-9]+"
 
 # Strings
 color green "\".*\""
